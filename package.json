@@ -1,0 +1,22 @@
+{
+   "name": "memory-game",
+   "version": "1.0.0",
+   "description": "",
+   "default": "index.html",
+   "scripts": {
+      "start": "parcel index.html",
+      "build": "parcel build index.html --dist-dir ./dist"
+   },
+   "author": "Pablo Martín Cruz",
+   "license": "ISC",
+   "devDependencies": {
+      "parcel": "^2.0.0-beta.1"
+   },
+   "dependencies": {
+      "@popperjs/core": "^2.9.2",
+      "animate.css": "^4.1.1",
+      "bootstrap": "^5.0.1",
+      "core-js": "^3.13.1",
+      "regenerator-runtime": "^0.13.7"
+   }
+}

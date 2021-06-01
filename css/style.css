@@ -1,0 +1,45 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body { background-color: #283042; }
+
+main {
+   display: flex;
+   flex-direction: column;   
+   align-items: center;
+}
+
+h1 { color: #00BFA5; }
+
+.board {  
+   display: grid;
+   grid-template-columns: repeat(5, min-content);
+   /* grid-template-rows: repeat(4, min-content); */
+   grid-gap: 1.4rem;   
+}
+
+.card-board {   
+   width: 12vmin;
+   height: 12vmin;
+   border-radius: 10%; 
+   cursor: pointer;
+}
+
+.hidden {
+   padding-bottom: 100%;
+   border-radius: 10%; 
+   background-color: #207995;
+   opacity: 0.7;
+}
+
+.hidden:hover { opacity: 1; }
+
+.tries {
+   font-size: 4vmin;
+   color: #e67e22;
+}
+
+.btn:focus, .btn:active, .btn:hover { box-shadow: none !important; }
